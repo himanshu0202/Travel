@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.himanshuanand.traveldiaries.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <ImageView
+        android:id="@+id/chicagoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/chicago"/>
+
+    <Button
+        android:id="@+id/chicagoButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/chicago"
+        android:background="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/indianaImageView"/>
+
+    <Button
+        android:id="@+id/indianapolisButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/chicagoButton"
+        android:layout_alignLeft="@+id/chicagoButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/chicagoButton"
+        android:layout_alignStart="@+id/chicagoButton"
+        android:layout_marginBottom="10dp"
+        android:text="@string/indianapolis"
+        android:background="@color/colorPrimaryDark"/>
+
+    <ImageView
+        android:id="@+id/indianaImageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/chicagoImageView"
+        android:scaleType="fitXY"
+        android:src="@drawable/indianapolis"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:text="@string/chicago_desc"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:id="@+id/textView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:text="@string/indianapolis_desc"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_above="@+id/indianapolisButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView2"/>
+
+
+</RelativeLayout>
+
+
+
+

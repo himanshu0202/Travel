@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.layout.chiindianatour.ChiTown">
+    <item
+        android:id="@+id/action_indiana"
+        android:orderInCategory="100"
+        android:title="@string/action_indiana"
+        app:showAsAction="never" />
+</menu>

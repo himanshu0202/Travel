@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TravelDiaries</string>
+    <string name="action_settings">Settings</string>
+    <string name="indianapolis_desc">Indianapolis is the capital of the U.S. state of Indiana and the county seat of Marion County.Click to explore more...</string>
+    <string name="chicago_desc">Chicago, on Lake Michigan in Illinois,is famed for its bold architecture,skyscrapers and museums.Click to explore more...</string>
+    <string name="chicago">CHICAGO</string>
+    <string name="indianapolis">INDIANAPOLIS</string>
+    <string name="chicago_toast">Chicago places of interest</string>
+    <string name="indianapolis_toast">Indianapolis places of interest</string>
+</resources>

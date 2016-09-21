@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">ChiIndianaTour</string>
+    <string name="action_indiana">Indiana</string>
+    <string name="action_chicago">Chicago</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="ChicagoPlaces">
+        <item>Millenium Park</item>
+        <item>Navy Pier</item>
+        <item>Lincoln Park Zoo</item>
+        <item>Willis Tower</item>
+        <item>John Hancock Center</item>
+        <item>Museum of Science and Industry</item>
+        <item>Shedd Aquarium</item>
+        <item>Art Institute of Chicago</item>
+        <item>Adler Planetarium</item>
+        <item>Wrigley Field</item>
+        <item>Grant Park</item>
+        <item>Buckingham Fountain</item>
+    </string-array>
+
+    <string-array name="IndianapolisPlaces">
+        <item>Indianapolis Motor Speedway</item>
+        <item>White River State Park</item>
+        <item>Victory Field</item>
+        <item>Indianapolis Zoo</item>
+        <item>NCAA Hall of Champions</item>
+        <item>The Children\'s Museum of Indianapolis</item>
+        <item>Indiana State Museum</item>
+    </string-array>
+
+
+    <string name="MilleniumPark_URI" formatted="false">http://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park.html</string>
+    <string name="NavyPier_URI" formatted="false">https://navypier.com</string>
+    <string name="LincolnPark_URI" formatted="false">http://www.lpzoo.org</string>
+    <string name="WillisTower_URI" formatted="false">http://www.willistower.com</string>
+    <string name="JHCenter_URI" formatted="false">http://www.johnhancockcenterchicago.com</string>
+    <string name="MSNI_URI" formatted="false">http://www.msichicago.org/visit/</string>
+    <string name="Shedd_URI" formatted="false">http://www.sheddaquarium.org</string>
+    <string name="AIT_URI" formatted="false">http://www.artic.edu</string>
+    <string name="Adler_URI">http://www.adlerplanetarium.org</string>
+    <string name="Wrigley_URI">http://chicago.cubs.mlb.com/chc/ballpark/</string>
+    <string name="Grant_URI">http://www.chicagoparkdistrict.com/parks/grant-park/</string>
+    <string name="Buckingham_URI" formatted="false">http://www.chicagotraveler.com/attractions/buckingham-fountain.html</string>
+
+
+    <string name="IMS_URI" formatted="false">http://www.indianapolismotorspeedway.com</string>
+    <string name="WRSP_URI" formatted="false">http://www.inwhiteriver.com</string>
+    <string name="VICTORY_URI" formatted="false">http://www.milb.com/index.jsp?sid=t484</string>
+    <string name="INDIANAZOO_URI" formatted="false">http://www.indianapoliszoo.com/SitePages/Home.aspx</string>
+    <string name="NCAA_URI" formatted="false">http://www.ncaahallofchampions.org/index.php</string>
+    <string name="MUSEUM_URI" formatted="false">https://www.childrensmuseum.org</string>
+    <string name="INDSTATEMUSEUM_URI" formatted="false">http://www.indianamuseum.org</string>
+
+
+
+</resources>
