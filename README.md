@@ -1,0 +1,1 @@
+Developed an application that would broadcast two different intents(Chicago vs Indianapolis). The activities(Chicago vs Indianapolis interest points) makes use of fragments and the state of the application is retained across screen rotations(landscape to portrait and vice versa).
